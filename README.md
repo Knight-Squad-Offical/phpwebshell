@@ -13,7 +13,7 @@ A simple PHP WebShell for Remote Code Execution.
 
 
 ## Warning
-I did not create this script to support any form of illegal activity or cyber crime. The use of this script is entirely yours. If you commit an illegal activity using this script, you are responsible for yourself. Us this script with your own risk and responsibility.
+I did not create this script to support any form of illegal activity or cyber crime. The use of this script is entirely yours. If you commit an illegal activity using this script, you are responsible for yourself. Use this script with your own risk and responsibility.
 
 ## Contact
 For any query you can contact me using below details. 
